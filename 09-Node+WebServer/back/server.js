@@ -1,19 +1,29 @@
 const http = require("http")
+const db = require("./db")
 const fs = require("fs")
 const port = 5000; 
+let zain =""
 
 const server = http.createServer((req , res) => {
-    res.write("hello world!!!")
-    console.log(__dirname.split("back")[0] + "front" + "f" + "index.html")
-    //   fs.readFile("index.html" , (err,data) => {
-    //     if (err) {
-    //         res.write("404 Could not read file " + "err")
-    //     }
-    //     else {
-    //         res.write(data)
-    //     }
-    // })
-     res.end()
+    res.writeHead(200 , "ok" , {"Content-Type": "text/html"})
+    res.writeHead(200 , "ok" , {
+        "Access-Control-Allow-Headers": "*"
+    })
+    res.write("homo")
+
+    req.on("data" , (data) => {
+        // for (let key in db.na) {
+        //     if (data.name === 
+        // }
+    })
+
+    req.on("end", (data) => {
+        res.write(zain)
+        res.end()
+    })
+    
+
+     
     
 })
 
