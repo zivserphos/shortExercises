@@ -6,7 +6,6 @@ const server = http.createServer((req, res) => {
   let body = "";
   //Headers
   res.writeHead(200, "ok", {
-    //"Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Headers": "*",
   });
   //When data
