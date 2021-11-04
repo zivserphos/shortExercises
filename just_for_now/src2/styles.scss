@@ -1,11 +1,12 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .card {
-    width: 22vw;
-    height: 27vh;
-    padding-left: 10%;
-    background-color: wheat;
-    border-radius: 8%;
+  width: 22vw;
+  height: 27vh;
+  background-color: wheat;
+  border-radius: 12%;
+  color: #343a40 !important;
+  font-weight: bold;
 }
