@@ -2,11 +2,25 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("../images/fhEwl.png");
+}
+
 .card {
   width: 22vw;
   height: 27vh;
-  background-color: wheat;
+  background-color: white;
   border-radius: 12%;
+  margin-left: 6%;
+  margin-top: 8%;
   color: #343a40 !important;
   font-weight: bold;
+}
+
+.enterUrl {
+  padding-top: 10%;
+}
+
+.originUrl {
+  width: 60%;
 }
